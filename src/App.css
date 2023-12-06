@@ -1,0 +1,109 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #d3c6c6;
+    color: hsl(200, 79%, 4%);
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 8ex;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .container {
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(106, 106, 236);
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+  }
+
+  figure {
+    margin: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  figcaption {
+    color:white;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 30px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  p{
+    font-weight: bold;
+    color:white;
+    font-size:x-large;
+  }
+
+  .btn {
+    width:120px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .navigation {
+    background-color: black;
+    width: 100%;
+    height: 120px;
+  }
+
+ .btn-increase {
+    margin-left: 100px;
+    margin-right: 30px;
+ }
+
+ .btn-increase, .btn-decrease {
+    border-radius: 10px;
+    width: 60px;
+    height: 40px;
+    background-color: rgb(186, 205, 238);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+ }
+
+.showProduct {
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
